@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0e8;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+
+h1,h2,h3{
+    color:#72645c;
+}
+
+
+h1{
+    font-size:2.2rem;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+    
+
+h2{
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.bold {   
+    font-weight: 700;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.content-wrapper {
+    justify-content: center;
+    width: 900px;
+}
+
+
+.horizontal-line {  /* task separation line */
+    border: 1.5px solid #72645c;
+    margin: 0px auto 20px 0px;
+}
+
+
+.image {
+    border: 4px solid #72645c;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width:100%;
+    height: auto;
+}
+
+
+/* links */
+
+.figma-link{
+    content: "\2192";   /*ARROW to check a Figma wireframe link*/
+}
+
+.link{
+    color:#72645c;
+    font-weight: 600;
+}
+
+/* TASK TWO ..........Table of Site´s color scheme */ 
+
+.color-container {
+    display: flex;
+    border: 4px solid #72645c;
+    background-color: lightgray;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.color-column {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+/* Color square samples */
+
+.color {
+    width: 120px;
+    height: 60px;
+    margin: 20px 0px 20px 20px;
+    display:flex;      /* to center color numbers inside the squares*/
+    justify-content: center;
+    align-items: center;
+}
+
+.image-column {    
+    flex: 2; 
+    
+    display: flex;
+    align-items: center;
+}
+
+.img-web {          /* Timmy´s site screenshot */
+    max-width: 95%;
+    height: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+</style>
+
+<body>
+    <div class="container">
+        <div class="content-wrapper">
+
+            <h1>M1C2 UI UX Assignment</h1>
+            
+            <!-- TASK ONE -->
+            
+            <h2>Task 1</h2>
+            <div class="horizontal-line"></div> <!-- Line for task separation -->
+            <img src="images/screenshot_Task1.png" class="image" alt="Screenshot of Task One">
+            
+            <h2>Solution: </h2>
+
+            <p>I created a low-fidelity wireframe of CodePen landing page using Figma app.
+           
+            
+            <img src="images/codepen_wireframe.png" class="image" alt="Solution of Task One" width="50%" height="50%">
+            
+            
+            <!-- TASK TWO -->
+            
+            <h2>Task 2</h2>
+            <div class="horizontal-line"></div> <!-- Line for task separation -->
+            <img src="images/screenshot_Task2.png" class="image" alt="Screenshot of Task Two">
+            
+            <h2>Solution: </h2>
+            
+            <p><a href="https://timmyomahony.com" class="link link-timmy">Timmy O'Mahony's Website</a>  uses repeatedly the following colors:</p>
+            <p><span style="font-weight: bold;">Beige #f0f0e8:</span> for the body back-ground color</p>
+            <p><span style="font-weight: bold;">Black #000000:</span> for the headings and paragraphs</p>
+            <p><span style="font-weight: bold;">Sandstone #72645c:</span> for some links, datetime and heading2</p>
+            
+            
+            <!-- Timmy´s site color Table   -->
+
+            <div class="color-container">
+                <div class="color-column">
+                    <div class="color" style="background-color: #f0f0e8;">
+                    #f0f0e8
+                    </div>
+                    <div class="color" style="background-color: #000000; color:#f0f0e8">
+                    #000000
+                    </div>
+                    <div class="color" style="background-color: #72645c;">
+                    #72645c
+                    </div>
+                </div>
+                <div class="image-column">
+                    <img src="images/screenshot-timmy-web.png" class="img-web"  alt="Screenshot of Timmy´s site">
+                </div>
+            </div>
+            
+
+            <!-- TASK THREE -->
+            
+            
+            <h2>Task 3</h2>
+            <div class="horizontal-line"></div> <!-- Line for task separation -->
+            <img src="images/screenshot_Task3.png" class="image" alt="Screenshot of Task Three">
+            
+            <h2>Solution: </h2>
+           
+            <p><span class="bold">A User Story for Youtube website : Lily’s Home Office Renovation </span>
+            
+            <p>Lily is a <span class="bold">successful beauty and lifestyle Youtuber </span>with one million subscribers on her youtube channel.</p>
+            
+            <p>She <span class="bold">wants to upload a series of videos </span>showcasing the before-and-after renovation of her home office room. <span class="bold">In collaboration with the paint brand </span>BRUGUER, she aims to feature a few color paint options and <span class="bold">enhance the brand’s visibility. </span></p>
+            
+            <p>Lily wants to encouraged her visitors to click on her <span class="bold">affiliate links </span>, redirecting them to the BRUGUER website to boost its number of visitors. She <span class="bold">earns a commission </span> based not only on the video-view numbers but also the successful purchases made with her links.
+                
+            <p><span class="bold">Youtube features that Lily may need: </span>Upload settings, Active Affiliate Links in Description Box below her videos, Audience Engagement Data to track the number of views, Comments Section, Community Posts to engage with her audience, just to mention a few.</p>
+                
+            
+            
+            <!-- TASK FOUR -->
+            
+            
+            <h2>Task 4</h2>
+            <div class="horizontal-line"></div> <!-- Line for task separation -->
+            <img src="images/screenshot_Task4.png" class="image" alt="Screenshot of Task Four">
+            
+            <h2>Solution: </h2>
+            
+            <p><span class="bold">The prime objective of: </span></p>
+            <p><span style="font-weight: bold;">Facebook </span>is to connect people locally or around the world, helping social interactions and the creation of similar interest groups.</p>
+            <p><span style="font-weight: bold;">Twitter </span>is to provide a plataform for people to share their opinions and get information with very short real-time messages.</p>
+            <p><span style="font-weight: bold;">Google </span>is to provide access to a wide range of information through its search engine.</p>
+            <p><span style="font-weight: bold;">Youtube </span>is to provide a plataform for people to share or watch video content.</p>
+        
+
+            <!-- End of Tasks -->
+            <h2></h2> 
+            <div class="horizontal-line"></div> 
+            
+        </div>
+    </div>
+        
+       
+
+    
+
+</body>
+</html>
